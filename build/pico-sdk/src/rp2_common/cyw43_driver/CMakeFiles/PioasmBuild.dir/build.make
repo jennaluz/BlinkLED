@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452
+CMAKE_SOURCE_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build
+CMAKE_BINARY_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build
 
 # Utility rule file for PioasmBuild.
 
@@ -76,46 +76,46 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/s
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E make_directory /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E make_directory /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm && $(MAKE)
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cfgcmd.txt
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake "-GUnix Makefiles" -C/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/tools/pioasm
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake "-GUnix Makefiles" -C/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-cache-Release.cmake /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/tools/pioasm
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -Dcfgdir= -P /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -Dcfgdir= -P /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 
 pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E echo_append
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E touch /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 
 PioasmBuild: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild
 PioasmBuild: pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild-complete
@@ -134,10 +134,10 @@ pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build: PioasmBui
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/build
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/depend:
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452 /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/cyw43_driver /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/cyw43_driver /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 

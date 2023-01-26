@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/boot_uf2_headers/cmake_install.cmake")
+  include("/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/boot_uf2_headers/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

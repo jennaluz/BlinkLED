@@ -5,18 +5,18 @@ cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
   "/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/tools/elf2uf2"
-  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2"
-  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2"
-  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/tmp"
-  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/src/ELF2UF2Build-stamp"
-  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/src"
-  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2"
+  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2"
+  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/tmp"
+  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/src/ELF2UF2Build-stamp"
+  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/src"
+  "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/src/ELF2UF2Build-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/src/ELF2UF2Build-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/elf2uf2/src/ELF2UF2Build-stamp${cfgdir}") # cfgdir has leading slash
 endif()

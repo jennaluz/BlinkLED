@@ -53,6 +53,8 @@ Discarded input sections
  .text          0x0000000000000000        0x0 CMakeFiles/blink.dir/blink.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.dir/blink.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.dir/blink.c.obj
+ .text.dash     0x0000000000000000       0x20 CMakeFiles/blink.dir/blink.c.obj
+ .text.dot      0x0000000000000000       0x1c CMakeFiles/blink.dir/blink.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdlib/stdlib.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdlib/stdlib.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -982,9 +984,9 @@ Discarded input sections
  .comment       0x0000000000000000       0x4a CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
                 0x0000000000000000       0x2c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x0000000000000000        0x0 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccIaySvH.o
- .data          0x0000000000000000        0x0 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccIaySvH.o
- .bss           0x0000000000000000        0x0 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccIaySvH.o
+ .text          0x0000000000000000        0x0 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccROcmti.o
+ .data          0x0000000000000000        0x0 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccROcmti.o
+ .bss           0x0000000000000000        0x0 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccROcmti.o
  .data          0x0000000000000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-calloc.o)
@@ -1200,11 +1202,11 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccIaySvH.o
+ .boot2         0x0000000010000000      0x100 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccROcmti.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x1cd0
+.text           0x0000000010000100     0x1d20
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1267,192 +1269,192 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002c4       0x48 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
  .text.startup.main
-                0x000000001000030c       0x28 CMakeFiles/blink.dir/blink.c.obj
+                0x000000001000030c       0x78 CMakeFiles/blink.dir/blink.c.obj
                 0x000000001000030c                main
  .text.gpio_init
-                0x0000000010000334       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x0000000010000334                gpio_init
+                0x0000000010000384       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x0000000010000384                gpio_init
  .text.hw_claim_or_assert
-                0x0000000010000370       0x44 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000370                hw_claim_or_assert
+                0x00000000100003c0       0x44 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_claim/claim.c.obj
+                0x00000000100003c0                hw_claim_or_assert
  .text.running_on_fpga
-                0x00000000100003b4       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_platform/platform.c.obj
-                0x00000000100003b4                running_on_fpga
+                0x0000000010000404       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000404                running_on_fpga
  .text.spin_locks_reset
-                0x00000000100003c4       0x1c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100003c4                spin_locks_reset
+                0x0000000010000414       0x1c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000414                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100003e0       0x18 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100003e0                next_striped_spin_lock_num
+                0x0000000010000430       0x18 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000430                next_striped_spin_lock_num
  .text.irq_set_enabled
-                0x00000000100003f8       0x24 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100003f8                irq_set_enabled
+                0x0000000010000448       0x24 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000448                irq_set_enabled
  .text.irq_get_vtable_handler
-                0x000000001000041c       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000041c                irq_get_vtable_handler
+                0x000000001000046c       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000046c                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x000000001000042c       0x54 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
-                0x000000001000042c                irq_set_exclusive_handler
+                0x000000001000047c       0x54 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000047c                irq_set_exclusive_handler
  .text.irq_remove_handler
-                0x0000000010000480      0x1b4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000480                irq_remove_handler
+                0x00000000100004d0      0x1b4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100004d0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010000634       0xb4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000634                irq_add_tail_to_free_list
+                0x0000000010000684       0xb4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000684                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x00000000100006e8       0x24 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006e8                irq_init_priorities
+                0x0000000010000738       0x24 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000738                irq_init_priorities
  .text.lock_init
-                0x000000001000070c       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_sync/lock_core.c.obj
-                0x000000001000070c                lock_init
+                0x000000001000075c       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_sync/lock_core.c.obj
+                0x000000001000075c                lock_init
  .text.timer_pool_entry_comparator
-                0x000000001000071c       0x34 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
-                0x000000001000071c                timer_pool_entry_comparator
+                0x000000001000076c       0x34 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x000000001000076c                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x0000000010000750       0x30 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x00000000100007a0       0x30 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock.isra.0
-                0x0000000010000780      0x100 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x00000000100007d0      0x100 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000880      0x1c8 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x00000000100008d0      0x1c8 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x0000000010000a48      0x11c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x0000000010000a98      0x11c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000b64       0x64 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
-                0x0000000010000b64                alarm_pool_init_default
+                0x0000000010000bb4       0x64 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x0000000010000bb4                alarm_pool_init_default
  .text.sleep_until
-                0x0000000010000bc8       0xac CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
-                0x0000000010000bc8                sleep_until
+                0x0000000010000c18       0xac CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x0000000010000c18                sleep_until
  .text.sleep_ms
-                0x0000000010000c74       0x38 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
-                0x0000000010000c74                sleep_ms
+                0x0000000010000cc4       0x38 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_time/time.c.obj
+                0x0000000010000cc4                sleep_ms
  .text.hardware_alarm_irq_handler
-                0x0000000010000cac       0xb8 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000cfc       0xb8 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010000d64       0x18 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000d64                hardware_alarm_claim
+                0x0000000010000db4       0x18 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000db4                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010000d7c       0x14 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000d7c                time_us_64
+                0x0000000010000dcc       0x14 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000dcc                time_us_64
  .text.busy_wait_until
-                0x0000000010000d90       0x20 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000d90                busy_wait_until
+                0x0000000010000de0       0x20 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000de0                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x0000000010000db0       0x8c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000db0                hardware_alarm_set_callback
+                0x0000000010000e00       0x8c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e00                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010000e3c       0xe0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000e3c                hardware_alarm_set_target
+                0x0000000010000e8c       0xe0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000e8c                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x0000000010000f1c       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010000f1c                hardware_alarm_cancel
+                0x0000000010000f6c       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010000f6c                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x0000000010000f58       0x68 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
+                0x0000000010000fa8       0x68 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x0000000010000fc0       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
-                0x0000000010000fc0                ph_post_alloc_init
+                0x0000000010001010       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
+                0x0000000010001010                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010000ffc       0x90 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
-                0x0000000010000ffc                ph_merge_two_pass
+                0x000000001000104c       0x90 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
+                0x000000001000104c                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x000000001000108c       0xf8 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
+                0x00000000100010dc       0xf8 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x0000000010001184       0xfc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
-                0x0000000010001184                ph_remove_head
+                0x00000000100011d4       0xfc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
+                0x00000000100011d4                ph_remove_head
  .text.ph_remove_and_free_node
-                0x0000000010001280       0x7c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
-                0x0000000010001280                ph_remove_and_free_node
+                0x00000000100012d0       0x7c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_util/pheap.c.obj
+                0x00000000100012d0                ph_remove_and_free_node
  .text.mutex_init
-                0x00000000100012fc       0x1c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_sync/mutex.c.obj
-                0x00000000100012fc                mutex_init
+                0x000000001000134c       0x1c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_sync/mutex.c.obj
+                0x000000001000134c                mutex_init
  .text.recursive_mutex_init
-                0x0000000010001318       0x1c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_sync/mutex.c.obj
-                0x0000000010001318                recursive_mutex_init
+                0x0000000010001368       0x1c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_sync/mutex.c.obj
+                0x0000000010001368                recursive_mutex_init
  .text.runtime_init
-                0x0000000010001334       0xf0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001334                runtime_init
- .text.exit     0x0000000010001424        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001424                exit
- .text.panic    0x0000000010001428       0x30 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001428                panic
+                0x0000000010001384       0xf0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001384                runtime_init
+ .text.exit     0x0000000010001474        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001474                exit
+ .text.panic    0x0000000010001478       0x30 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001478                panic
  .text.hard_assertion_failure
-                0x0000000010001458        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001458                hard_assertion_failure
+                0x00000000100014a8        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
+                0x00000000100014a8                hard_assertion_failure
  .text.clocks_init
-                0x0000000010001464      0x2bc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001464                clocks_init
+                0x00000000100014b4      0x2bc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x00000000100014b4                clocks_init
  .text.pll_init
-                0x0000000010001720       0xb0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001720                pll_init
+                0x0000000010001770       0xb0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001770                pll_init
  .text.watchdog_start_tick
-                0x00000000100017d0       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x00000000100017d0                watchdog_start_tick
+                0x0000000010001820       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010001820                watchdog_start_tick
  .text.xosc_init
-                0x00000000100017e0       0x28 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x00000000100017e0                xosc_init
+                0x0000000010001830       0x28 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000000010001830                xosc_init
  .text._out_char
-                0x0000000010001808       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001858       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_printf/printf.c.obj
  .text.weak_raw_vprintf
-                0x0000000010001818       0x30 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_printf/printf.c.obj
-                0x0000000010001818                weak_raw_vprintf
- .text          0x0000000010001848       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010001868       0x30 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010001868                weak_raw_vprintf
+ .text          0x0000000010001898       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x0000000010001858       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001858                rom_func_lookup
+                0x00000000100018a8       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100018a8                rom_func_lookup
  .text.rom_data_lookup
-                0x0000000010001868       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001868                rom_data_lookup
+                0x00000000100018b8       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100018b8                rom_data_lookup
  .text.rom_funcs_lookup
-                0x0000000010001878       0x44 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x0000000010001878                rom_funcs_lookup
+                0x00000000100018c8       0x44 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100018c8                rom_funcs_lookup
  .text.__wrap___aeabi_uidiv
-                0x00000000100018bc       0x4c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100018bc                __wrap___aeabi_uidiv
-                0x00000000100018bc                __wrap___aeabi_uidivmod
-                0x00000000100018bc                div_u32u32
-                0x00000000100018bc                divmod_u32u32
-                0x00000000100018c4                divmod_u32u32_unsafe
-                0x00000000100018ec                divmod_u32u32_savestate
+                0x000000001000190c       0x4c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000190c                __wrap___aeabi_uidiv
+                0x000000001000190c                __wrap___aeabi_uidivmod
+                0x000000001000190c                div_u32u32
+                0x000000001000190c                divmod_u32u32
+                0x0000000010001914                divmod_u32u32_unsafe
+                0x000000001000193c                divmod_u32u32_savestate
  .text.missing_double_func_shim
-                0x0000000010001908        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010001958        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_init_rom.c.obj
  .text.__aeabi_double_init
-                0x0000000010001914       0x98 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010001914                __aeabi_double_init
+                0x0000000010001964       0x98 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010001964                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x00000000100019ac       0x2c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100019ac                double_table_shim_on_use_helper
+                0x00000000100019fc       0x2c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x00000000100019fc                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x00000000100019d8       0x32 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x00000000100019d8                __wrap___aeabi_lmul
- *fill*         0x0000000010001a0a        0x2 
+                0x0000000010001a28       0x32 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x0000000010001a28                __wrap___aeabi_lmul
+ *fill*         0x0000000010001a5a        0x2 
  .text.missing_float_func_shim
-                0x0000000010001a0c        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010001a5c        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_float/float_init_rom.c.obj
  .text.__aeabi_float_init
-                0x0000000010001a18       0x5c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x0000000010001a18                __aeabi_float_init
- .text          0x0000000010001a74       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001a74                __aeabi_mem_init
- .text.memcpy   0x0000000010001a84        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010001a84                __wrap___aeabi_memcpy
-                0x0000000010001a84                __wrap_memcpy
+                0x0000000010001a68       0x5c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000010001a68                __aeabi_float_init
+ .text          0x0000000010001ac4       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001ac4                __aeabi_mem_init
+ .text.memcpy   0x0000000010001ad4        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000010001ad4                __wrap___aeabi_memcpy
+                0x0000000010001ad4                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x0000000010001a90       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ae0       0x10 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x0000000010001aa0       0xb4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001af0       0xb4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string.isra.0
-                0x0000000010001b54       0xfc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ba4       0xfc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010001c50       0xa0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001c50                __wrap_putchar
+                0x0000000010001ca0       0xa0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ca0                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010001cf0       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001cf0                __wrap_puts
- .text.strlen   0x0000000010001d2c       0x5c /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x0000000010001d2c                strlen
+                0x0000000010001d40       0x3c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001d40                __wrap_puts
+ .text.strlen   0x0000000010001d7c       0x5c /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010001d7c                strlen
  *(.fini)
- .fini          0x0000000010001d88        0x4 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
-                0x0000000010001d88                _fini
- *fill*         0x0000000010001d8c        0x4 
- .fini.__stub   0x0000000010001d90       0x40 linker stubs
+ .fini          0x0000000010001dd8        0x4 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crti.o
+                0x0000000010001dd8                _fini
+ *fill*         0x0000000010001ddc        0x4 
+ .fini.__stub   0x0000000010001de0       0x40 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -1464,87 +1466,87 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010001dd0        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010001dd0                . = ALIGN (0x4)
+ .eh_frame      0x0000000010001e20        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010001e20                . = ALIGN (0x4)
 
-.glue_7         0x0000000010001dd0        0x0
- .glue_7        0x0000000010001dd0        0x0 linker stubs
+.glue_7         0x0000000010001e20        0x0
+ .glue_7        0x0000000010001e20        0x0 linker stubs
 
-.glue_7t        0x0000000010001dd0        0x0
- .glue_7t       0x0000000010001dd0        0x0 linker stubs
+.glue_7t        0x0000000010001e20        0x0
+ .glue_7t       0x0000000010001e20        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010001dd0        0x0
- .vfp11_veneer  0x0000000010001dd0        0x0 linker stubs
+.vfp11_veneer   0x0000000010001e20        0x0
+ .vfp11_veneer  0x0000000010001e20        0x0 linker stubs
 
-.v4_bx          0x0000000010001dd0        0x0
- .v4_bx         0x0000000010001dd0        0x0 linker stubs
+.v4_bx          0x0000000010001e20        0x0
+ .v4_bx         0x0000000010001e20        0x0 linker stubs
 
-.iplt           0x0000000010001dd0        0x0
- .iplt          0x0000000010001dd0        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010001e20        0x0
+ .iplt          0x0000000010001e20        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010001dd0       0xd8
+.rodata         0x0000000010001e20       0xd8
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.hardware_alarm_claim.str1.4
-                0x0000000010001dd0       0x22 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x0000000010001df2        0x2 
+                0x0000000010001e20       0x22 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x0000000010001e42        0x2 
  .rodata.panic.str1.4
-                0x0000000010001df4       0x12 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010001e06        0x2 
+                0x0000000010001e44       0x12 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x0000000010001e56        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010001e08        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001e58        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x0000000010001e14       0x18 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010001e64       0x18 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_double/double_init_rom.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x0000000010001e2c        0x1 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_float/float_init_rom.c.obj
- *fill*         0x0000000010001e2d        0x3 
+                0x0000000010001e7c        0x1 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_float/float_init_rom.c.obj
+ *fill*         0x0000000010001e7d        0x3 
  .rodata.str1.4
-                0x0000000010001e30       0x50 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001e80       0x50 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010001e80        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001ed0        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010001e8c        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001edc        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010001e98        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001ee8        0xc CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.0
-                0x0000000010001ea4        0x2 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010001ea8                . = ALIGN (0x4)
- *fill*         0x0000000010001ea6        0x2 
+                0x0000000010001ef4        0x2 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010001ef8                . = ALIGN (0x4)
+ *fill*         0x0000000010001ef6        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010001ea8                . = ALIGN (0x4)
+                0x0000000010001ef8                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010001ea8        0x0
- .rel.iplt      0x0000000010001ea8        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010001ef8        0x0
+ .rel.iplt      0x0000000010001ef8        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010001ea8                __exidx_start = .
+                0x0000000010001ef8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010001ea8                __exidx_end = .
-                0x0000000010001ea8                . = ALIGN (0x4)
-                0x0000000010001ea8                __binary_info_start = .
+                0x0000000010001ef8                __exidx_end = .
+                0x0000000010001ef8                . = ALIGN (0x4)
+                0x0000000010001ef8                __binary_info_start = .
 
-.binary_info    0x0000000010001ea8       0x1c
+.binary_info    0x0000000010001ef8       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010001ea8        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001ef8        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010001eac        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001efc        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010001eb0        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f00        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010001eb4        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f04        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010001eb8        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f08        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010001ebc        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f0c        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010001ec0        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010001f10        0x4 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
-                0x0000000010001ec4                __binary_info_end = .
-                0x0000000010001ec4                . = ALIGN (0x4)
-                0x0000000010001ec4                __etext = .
+                0x0000000010001f14                __binary_info_end = .
+                0x0000000010001f14                . = ALIGN (0x4)
+                0x0000000010001f14                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -1553,7 +1555,7 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-
                 0x0000000020000000       0xc0 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x16c load address 0x0000000010001ec4
+.data           0x00000000200000c0      0x16c load address 0x0000000010001f14
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -1630,27 +1632,27 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-
                 0x000000002000022c                . = ALIGN (0x4)
                 0x000000002000022c                __data_end__ = .
 
-.igot.plt       0x000000002000022c        0x0 load address 0x0000000010002030
+.igot.plt       0x000000002000022c        0x0 load address 0x0000000010002080
  .igot.plt      0x000000002000022c        0x0 /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x000000002000022c        0x0 load address 0x0000000010002030
+                0x000000002000022c        0x0 load address 0x0000000010002080
                 0x000000002000022c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010002030
+.scratch_x      0x0000000020040000        0x0 load address 0x0000000010002080
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010002030                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x0000000010002080                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010002030
+.scratch_y      0x0000000020041000        0x0 load address 0x0000000010002080
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010002030                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x0000000010002080                __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .bss            0x0000000020000230      0x3cc
                 0x0000000020000230                . = ALIGN (0x4)
@@ -1707,8 +1709,8 @@ LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010002030        0x0
-                0x0000000010002030                __flash_binary_end = .
+.flash_end      0x0000000010002080        0x0
+                0x0000000010002080                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -1763,7 +1765,7 @@ LOAD CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_co
 LOAD CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccIaySvH.o
+LOAD /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccROcmti.o
 LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -1849,7 +1851,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x000000000000051e       0x2c CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x000000000000054a       0x22 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccIaySvH.o
+                0x000000000000054a       0x22 /var/folders/1j/9n7z_gbx475crclqdt857dtc0000gn/T//ccROcmti.o
  .ARM.attributes
                 0x000000000000056c       0x1e /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

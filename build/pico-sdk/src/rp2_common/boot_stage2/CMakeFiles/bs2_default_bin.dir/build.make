@@ -53,10 +53,10 @@ RM = /opt/homebrew/Cellar/cmake/3.25.2/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452
+CMAKE_SOURCE_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build
+CMAKE_BINARY_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build
 
 # Utility rule file for bs2_default_bin.
 
@@ -69,8 +69,8 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/progr
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2 && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2 && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -82,10 +82,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build: bs2_de
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2 && $(CMAKE_COMMAND) -P CMakeFiles/bs2_default_bin.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend:
-	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452 /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/boot_stage2 /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2 /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/boot_stage2 /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2 /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 

@@ -43,9 +43,9 @@ CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_printf/include/pico/printf.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_base/include/pico.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_base/include/pico/types.h \
- /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/generated/pico_base/pico/version.h \
+ /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/generated/pico_base/pico/version.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_base/include/pico/config.h \
- /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/generated/pico_base/pico/config_autogen.h \
+ /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/generated/pico_base/pico/config_autogen.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/boards/include/boards/adafruit_feather_rp2040.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_base/include/pico/error.h \

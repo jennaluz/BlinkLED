@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/tools/pioasm
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm
+CMAKE_BINARY_DIR = /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm/CMakeFiles /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm/CMakeFiles /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pioasm/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pioasm/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

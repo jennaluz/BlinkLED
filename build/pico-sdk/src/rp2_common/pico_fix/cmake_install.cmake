@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
+  include("/Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/cmake_install.cmake")
 
 endif()
 

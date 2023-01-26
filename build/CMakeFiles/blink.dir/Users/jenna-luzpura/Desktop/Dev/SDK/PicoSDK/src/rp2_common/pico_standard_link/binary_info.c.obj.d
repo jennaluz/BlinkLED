@@ -21,9 +21,9 @@ CMakeFiles/blink.dir/Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/config.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/ieeefp.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
- /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/generated/pico_base/pico/version.h \
+ /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/generated/pico_base/pico/version.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/common/pico_base/include/pico/config.h \
- /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/generated/pico_base/pico/config_autogen.h \
+ /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/generated/pico_base/pico/config_autogen.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/boards/include/boards/adafruit_feather_rp2040.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/jenna-luzpura/Desktop/Dev/SDK/PicoSDK/src/rp2_common/pico_platform/include/pico/platform.h \

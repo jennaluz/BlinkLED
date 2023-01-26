@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/jenna-luzpura/Desktop/Dev/Courses/S23/CS452/blink/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb
